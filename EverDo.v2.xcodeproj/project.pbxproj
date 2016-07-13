@@ -14,6 +14,9 @@
 		97DC8AEA1D356DCE00E8AEB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97DC8AE81D356DCE00E8AEB4 /* Main.storyboard */; };
 		97DC8AEC1D356DCE00E8AEB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97DC8AEB1D356DCE00E8AEB4 /* Assets.xcassets */; };
 		97DC8AEF1D356DCE00E8AEB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97DC8AED1D356DCE00E8AEB4 /* LaunchScreen.storyboard */; };
+		97DC8AF81D356E6D00E8AEB4 /* Todo.m in Sources */ = {isa = PBXBuildFile; fileRef = 97DC8AF71D356E6D00E8AEB4 /* Todo.m */; };
+		97DC8AFB1D35B11100E8AEB4 /* CustomCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 97DC8AFA1D35B11100E8AEB4 /* CustomCellTableViewCell.m */; };
+		97DC8AFE1D368FA100E8AEB4 /* AddNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97DC8AFD1D368FA100E8AEB4 /* AddNewViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,12 @@
 		97DC8AEB1D356DCE00E8AEB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97DC8AEE1D356DCE00E8AEB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97DC8AF01D356DCE00E8AEB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97DC8AF61D356E6D00E8AEB4 /* Todo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Todo.h; sourceTree = "<group>"; };
+		97DC8AF71D356E6D00E8AEB4 /* Todo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Todo.m; sourceTree = "<group>"; };
+		97DC8AF91D35B11100E8AEB4 /* CustomCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCellTableViewCell.h; sourceTree = "<group>"; };
+		97DC8AFA1D35B11100E8AEB4 /* CustomCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCellTableViewCell.m; sourceTree = "<group>"; };
+		97DC8AFC1D368FA100E8AEB4 /* AddNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddNewViewController.h; sourceTree = "<group>"; };
+		97DC8AFD1D368FA100E8AEB4 /* AddNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddNewViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,9 +74,15 @@
 				97DC8AE01D356DCE00E8AEB4 /* AppDelegate.m */,
 				97DC8AE21D356DCE00E8AEB4 /* MasterViewController.h */,
 				97DC8AE31D356DCE00E8AEB4 /* MasterViewController.m */,
+				97DC8AFC1D368FA100E8AEB4 /* AddNewViewController.h */,
+				97DC8AFD1D368FA100E8AEB4 /* AddNewViewController.m */,
 				97DC8AE51D356DCE00E8AEB4 /* DetailViewController.h */,
 				97DC8AE61D356DCE00E8AEB4 /* DetailViewController.m */,
 				97DC8AE81D356DCE00E8AEB4 /* Main.storyboard */,
+				97DC8AF91D35B11100E8AEB4 /* CustomCellTableViewCell.h */,
+				97DC8AFA1D35B11100E8AEB4 /* CustomCellTableViewCell.m */,
+				97DC8AF61D356E6D00E8AEB4 /* Todo.h */,
+				97DC8AF71D356E6D00E8AEB4 /* Todo.m */,
 				97DC8AEB1D356DCE00E8AEB4 /* Assets.xcassets */,
 				97DC8AED1D356DCE00E8AEB4 /* LaunchScreen.storyboard */,
 				97DC8AF01D356DCE00E8AEB4 /* Info.plist */,
@@ -154,8 +169,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97DC8AF81D356E6D00E8AEB4 /* Todo.m in Sources */,
 				97DC8AE11D356DCE00E8AEB4 /* AppDelegate.m in Sources */,
+				97DC8AFB1D35B11100E8AEB4 /* CustomCellTableViewCell.m in Sources */,
 				97DC8AE41D356DCE00E8AEB4 /* MasterViewController.m in Sources */,
+				97DC8AFE1D368FA100E8AEB4 /* AddNewViewController.m in Sources */,
 				97DC8ADE1D356DCE00E8AEB4 /* main.m in Sources */,
 				97DC8AE71D356DCE00E8AEB4 /* DetailViewController.m in Sources */,
 			);
@@ -306,6 +324,7 @@
 				97DC8AF51D356DCE00E8AEB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
